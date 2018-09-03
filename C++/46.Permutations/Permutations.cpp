@@ -1,3 +1,5 @@
+//This recursive solution uses "nums" itself for in-place permutation. 
+//for every candidate number, swap it with nums[start], and then move to the next recursion. After that recursion, recover the vector.
 class Solution {
 public:
     void helper(vector<int>& nums, int start, vector<vector<int>>& permutations){

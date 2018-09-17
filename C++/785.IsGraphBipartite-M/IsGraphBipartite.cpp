@@ -1,7 +1,7 @@
 //divide the vertices into part -1 and part 1, and we record it in a hashmap
 //use queue to store the vertices that need to be divide and check;
 
-//Noted that there may be some disconnection in the given graph
+//Noted that there may be some disconnections in the given graph
 
 //For example, [[1,2,3], [0,2], [0,1,3], [0,2]]
 //If 0 in part A, then 123 should in part B
